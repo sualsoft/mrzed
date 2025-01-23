@@ -148,3 +148,30 @@ form button {
   color: white;
   cursor: pointer;
 }
+iframe {
+  width: 500px;
+  height: 350px;
+}
+@media screen and (max-width: 768px) {
+  iframe {
+    width: 100% !important;
+  }
+  .logo img {
+    width: 50px !important;
+  }
+  .telegram img {
+    width: 70px !important;
+  }
+  .alert {
+    display: inline-block;
+    margin-top: 1rem;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  .mobile-text {
+    margin-top: 2rem;
+  }
+  .mp {
+    margin-top: 1rem;
+  }
+}
